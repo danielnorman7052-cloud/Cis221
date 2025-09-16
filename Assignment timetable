@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My School Timetable</title>
+</head>
+<body>
+
+    <h2 align="center">My Semester Timetable</h2>
+
+    <table border="2" cellspacing="0" cellpadding="10" align="center">
+        <caption><b>Timetable</b></caption>
+        
+        <tr>
+            <th>Day/Time</th>
+            <th>9am</th>
+            <th>10am</th>
+            <th>11am</th>
+            <th>12pm</th>
+            <th>1pm</th>
+        </tr>
+
+        <tr>
+            <th scope="row">Monday</th>
+            <td colspan="2">CIS 210</td>
+            <td>CIS 211</td>
+            <td>CIS 212</td>
+            <td>-</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Tuesday</th>
+            <td>CIS 122</td>
+            <td>CIS 133</td>
+            <td colspan="2">CIS 213</td>
+            <td>-</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Wednesday</th>
+            <td colspan="2">CIS 220</td>
+            <td>CIS 221</td>
+            <td>-</td>
+            <td>CIS 222</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Thursday</th>
+            <td>-</td>
+            <td>CIS 230</td>
+            <td>CIS 231</td>
+            <td colspan="2">CIS 232</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Friday</th>
+            <td>CIS 240</td>
+            <td>CIS 241</td>
+            <td>-</td>
+            <td>CIS 242</td>
+            <td>-</td>
+        </tr>
+    </table>
+
+</body>
+</html>
